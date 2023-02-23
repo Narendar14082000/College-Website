@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Courses.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div><i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2021</h1>
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/certificate.jpg">
+                    <h2>Our Certificate & Online Programs For 2021</h2>
+                    <p>University can be one of the most exciting times in your life, offering opportunities to learn, grow, and explore new interests. Whether you're a freshman just starting out or a seasoned student looking to make the most of your time
+                        on campus, there's something for everyone at a university. In this blog post, we'll take a look at what makes a university unique and explore some of the key aspects of campus life.</p><br>
+                    <p>One of the most significant advantages of attending a university is the range of academic opportunities available. With access to expert faculty and cutting-edge research, students can pursue a wide range of academic interests, from
+                        traditional disciplines like history and literature to emerging fields such as artificial intelligence and sustainability. University courses often offer a level of depth and rigor that is hard to find elsewhere, challenging students
+                        to think critically and develop new skills.</p><br>
+                    <p>Beyond academics, university life offers a host of opportunities for personal growth and development. With a diverse student body and a wide range of extracurricular activities, students can explore new interests and make lifelong
+                        connections. From sports and clubs to volunteer work and social events, there's always something happening on campus. Universities often have a rich history and culture that students can explore, from historic buildings and monuments
+                        to campus traditions and rituals.</p>
+                    <div class="comment-box">
+                        <h3>Leave a Comment</h3>
+                        <form class="comment-form"><input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Mail">
+                            <textarea rows="5" placeholder="your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div><span>Business Analytics</span><span>21</span></div>
+                    <div><span>Data Science</span><span>28</span></div>
+                    <div><span>Machine learning</span><span>15</span></div>
+                    <div><span>Computer Science</span><span>39</span></div>
+                    <div><span>Computer Science</span><span>39</span></div>
+                    <div><span>Computer Science</span><span>39</span></div>
+                    <div><span>Computer Science</span><span>39</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>About us</h4>
+            <p>A university is an institution of higher education that offers academic programs at the undergraduate and graduate levels.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-hear-o"></i>by Paindla Narendar Reddy</p>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+</body>
+
+</html>
